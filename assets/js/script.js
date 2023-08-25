@@ -77,6 +77,7 @@ function displayQuestion (){
 
     // inside the array, it will call the key for choices and then create buttons
         for (let i = 0; i < questions[index].choices.length; i++) {
+            
             var button = document.createElement('button');
             console.log(button);
             button.textContent=questions[index].choices[i];
@@ -123,7 +124,7 @@ function deductime (){
         timeEl.textContent = "Time: " + secondsLeft + " seconds left.";
     
         //if time is 0 then clear time and move to final score
-        if(secondsLeft === 0 || index > 2)  {
+        if(secondsLeft === 0 || index > 4)  {
             timeEl.textContent = "";
           // Stops execution of action at set interval
           clearInterval(timerInterval);
