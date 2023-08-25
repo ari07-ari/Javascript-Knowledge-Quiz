@@ -4,7 +4,7 @@ This project tests the user's knowledge of Java. There will be 5 questions for t
 
 ![Webpage](./assets/images/quiz.png)
 
-[Go to Website here](https://ari07-ari.github.io/My-Personal-Portafolio-Work/)
+[Go to Website here](https://ari07-ari.github.io/Javascript-Knowledge-Quiz/)
 
 ## Installation
 I created a repository that I later cloned into my computer. Then I created folders with their files, each for html, css and javascript. Then I proceeded to create my code.
