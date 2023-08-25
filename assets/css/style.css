@@ -1,0 +1,46 @@
+/*sets the background color */
+body {
+    background-color: #eff5f8
+    
+  }
+  
+  /* All the headers 4 will have the following features*/
+  h4 {
+    text-align: center;
+    font-size: 34px;
+    font-weight: 700;
+  }
+  
+  /* All the buttons will have withh have a different colour than the rest elements and it has its own features*/
+  button {
+    padding: 10px;
+    margin: 24px;
+    cursor: pointer;
+    font-size: 25px;
+    background-color: #456d7e;
+    color: white;
+  }
+  
+    
+  /*These classes will have the following features like the padding the placement, etc */
+  .buttonopt,
+  .end,
+  .box1,
+  .highscore{
+    padding: 5px 5px 10px 5px;
+    display: block;
+    margin: 30px auto;
+    text-align: center;
+    /*box-shadow: 0 4px 8px 0 #00000033; */
+    transition: 0.3s;
+    width: 60vw;
+    background-color: #e1e2bc;
+  }
+ 
+  /* These classes will hide the content their element carries*/
+  .hide {
+    display: none;
+  }
+  .hidden{
+    display: none;
+  }

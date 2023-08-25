@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <title>Document</title>
+    </head>
+
+
+    <body>
+            <div class="buttonopt" >
+                <h4>Javascript Knowledge Quiz</h4>
+                <p>Try to answer as many questions as you can.
+                    Good luck!!
+                </p>
+                <button id="Start">Start Quiz</button>
+            </div>
+
+            <h4 class="time" style="text-align:center;"></h4>
+            <div id="main"></div>
+
+            <section class="box1">
+            <h4 id="que"></h4>
+            <div class="card1" ></div>
+            <p id="correct"></p>
+           </section>
+
+            <div class="end hide">
+                <h4 id="done">All done!</h1>
+                <p id="text"></p>
+                <form class="finish" methos="POST">
+                    <div class="initials">
+                    <label>Enter intials</label>
+                    <input type="initials" name="initials" id="input-task" placeholder="Initials" />
+                    </div>
+                    <button id="submit">Submit</button>
+                </form>
+            </div> 
+
+            
+            <div class="highscore hidden" >
+                  <h4 id="text2">High-scores</h1>
+                  <ul id="highscorelist">
+                  </ul>
+                  <button id="back">Go Back</button>
+                  <button id="clear">Clear High-score</button>
+            </div>
+            
+
+            
+
+        <script src="./assets/js/script.js"></script>
+    </body>
+</html>
